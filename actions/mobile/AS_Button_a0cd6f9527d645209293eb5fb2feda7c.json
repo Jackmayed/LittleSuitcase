@@ -1,0 +1,35 @@
+{
+    "AS_Button_a0cd6f9527d645209293eb5fb2feda7c": {
+        "id": "AS_Button_a0cd6f9527d645209293eb5fb2feda7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Tips",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c0c77ea768bc4437b300e69302769c22"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a0536cc041cf4385a424a7b02fa8514d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Menu",
+            "formKUID": "e4f86753573244729786e7bd46090a14",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

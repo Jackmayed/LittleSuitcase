@@ -1,0 +1,19 @@
+{
+  "background_color": "00000099",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "delinkedPltfrms": {
+    "desktop": [],
+    "mobile": [
+      "iphone"
+    ],
+    "tablet": [],
+    "watch": []
+  },
+  "isDefaultSkin": false,
+  "kuid": "s3086d9e4df74e62a56c088e5d005f2c",
+  "wType": "FlexContainer"
+}

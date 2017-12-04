@@ -1,0 +1,493 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "h8d9a7d567694c7cbaa00170c4086e62",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgOne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color3.png"
+                },
+                "imgProduct": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_1_list.png"
+                },
+                "imgProductR": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_2_list.png"
+                },
+                "imgROne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color5.png"
+                },
+                "imgRThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color4.png"
+                },
+                "imgRTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color6.png"
+                },
+                "imgStar1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar1R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgStar5R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color1.png"
+                },
+                "imgTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color2.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblDescriptionR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "T-Rock Men's"
+                },
+                "lblProductNameR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Croc Duet Sneakers"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$119.95"
+                },
+                "lblRateR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$250.00"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                },
+                "lblStatusR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                }
+            },
+            {
+                "imgOne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color3.png"
+                },
+                "imgProduct": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_3_list.png"
+                },
+                "imgProductR": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_4_list.png"
+                },
+                "imgROne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color5.png"
+                },
+                "imgRThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color4.png"
+                },
+                "imgRTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color6.png"
+                },
+                "imgStar1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar1R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgStar5R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color1.png"
+                },
+                "imgTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color2.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblDescriptionR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Roush Leather"
+                },
+                "lblProductNameR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Croc Duet Sneakers"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$250.00"
+                },
+                "lblRateR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$150.90"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                },
+                "lblStatusR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                }
+            },
+            {
+                "imgOne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color3.png"
+                },
+                "imgProduct": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_1_list.png"
+                },
+                "imgProductR": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_shoe_2_list.png"
+                },
+                "imgROne": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color4.png"
+                },
+                "imgRThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color1.png"
+                },
+                "imgRTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color3.png"
+                },
+                "imgStar1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar1R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar2R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar3R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "staractive.png"
+                },
+                "imgStar4R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgStar5": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgStar5R": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "starinactive.png"
+                },
+                "imgThree": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color1.png"
+                },
+                "imgTwo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_pl_color2.png"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblDescriptionR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Black Runnig Shoe Description lines"
+                },
+                "lblProductName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "T-Rock Men's"
+                },
+                "lblProductNameR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Roush Sneaker"
+                },
+                "lblRate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$119.95"
+                },
+                "lblRateR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$250.00"
+                },
+                "lblStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                },
+                "lblStatusR": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Instock for delivery"
+                }
+            }
+        ],
+        "rowTemplateId": "hb82180c23a245789fc1b15f439132a1",
+        "rowtemplate": "CopyCopyflxRow1",
+        "widgetdatamap": {
+            "CopyCopyflxRow1": "CopyCopyflxRow1",
+            "flxBottom": "flxBottom",
+            "flxColorOptions": "flxColorOptions",
+            "flxColorOptionsR": "flxColorOptionsR",
+            "flxLeft": "flxLeft",
+            "flxMiddle": "flxMiddle",
+            "flxRatingImages": "flxRatingImages",
+            "flxRatingImagesR": "flxRatingImagesR",
+            "flxRight": "flxRight",
+            "imgOne": "imgOne",
+            "imgProduct": "imgProduct",
+            "imgProductR": "imgProductR",
+            "imgROne": "imgROne",
+            "imgRThree": "imgRThree",
+            "imgRTwo": "imgRTwo",
+            "imgStar1": "imgStar1",
+            "imgStar1R": "imgStar1R",
+            "imgStar2": "imgStar2",
+            "imgStar2R": "imgStar2R",
+            "imgStar3": "imgStar3",
+            "imgStar3R": "imgStar3R",
+            "imgStar4": "imgStar4",
+            "imgStar4R": "imgStar4R",
+            "imgStar5": "imgStar5",
+            "imgStar5R": "imgStar5R",
+            "imgThree": "imgThree",
+            "imgTwo": "imgTwo",
+            "lblDescription": "lblDescription",
+            "lblDescriptionR": "lblDescriptionR",
+            "lblProductName": "lblProductName",
+            "lblProductNameR": "lblProductNameR",
+            "lblRate": "lblRate",
+            "lblRateR": "lblRateR",
+            "lblStatus": "lblStatus",
+            "lblStatusR": "lblStatusR"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "ProductGrid",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sf5aadfdaa404cbd84645126cd92aabb",
+    "rowskin": "sfe96e2d36bc4f9e98f80ddd2c40594f",
+    "rowtemplate": "CopyCopyflxRow1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s3c57eae44ff418f9e4abb694832e993",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyCopyflxRow1": "CopyCopyflxRow1",
+        "flxBottom": "flxBottom",
+        "flxColorOptions": "flxColorOptions",
+        "flxColorOptionsR": "flxColorOptionsR",
+        "flxLeft": "flxLeft",
+        "flxMiddle": "flxMiddle",
+        "flxRatingImages": "flxRatingImages",
+        "flxRatingImagesR": "flxRatingImagesR",
+        "flxRight": "flxRight",
+        "imgOne": "imgOne",
+        "imgProduct": "imgProduct",
+        "imgProductR": "imgProductR",
+        "imgROne": "imgROne",
+        "imgRThree": "imgRThree",
+        "imgRTwo": "imgRTwo",
+        "imgStar1": "imgStar1",
+        "imgStar1R": "imgStar1R",
+        "imgStar2": "imgStar2",
+        "imgStar2R": "imgStar2R",
+        "imgStar3": "imgStar3",
+        "imgStar3R": "imgStar3R",
+        "imgStar4": "imgStar4",
+        "imgStar4R": "imgStar4R",
+        "imgStar5": "imgStar5",
+        "imgStar5R": "imgStar5R",
+        "imgThree": "imgThree",
+        "imgTwo": "imgTwo",
+        "lblDescription": "lblDescription",
+        "lblDescriptionR": "lblDescriptionR",
+        "lblProductName": "lblProductName",
+        "lblProductNameR": "lblProductNameR",
+        "lblRate": "lblRate",
+        "lblRateR": "lblRateR",
+        "lblStatus": "lblStatus",
+        "lblStatusR": "lblStatusR"
+    },
+    "zindex": 1
+}

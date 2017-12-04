@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdb5a7ddf7b04864adc1547ad87788fc",
+    "_text_": "Plan a Trip",
+    "_top_": {
+        "type": "string",
+        "value": "195dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "planatrip",
+    "info": null,
+    "isvisible": true,
+    "kuid": "g73a61c47126480ba0e11195b0c5fe76",
+    "name": "kony.ui.Button",
+    "ontouchstart": "AS_Button_a73ade39f7224212a82db72cb4eaf190",
+    "parent": "FlexContainer0aeb46b5905cf4d",
+    "pf": "Menu",
+    "wType": "Button",
+    "zindex": 1
+}

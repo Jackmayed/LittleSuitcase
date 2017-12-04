@@ -1,0 +1,35 @@
+{
+    "AS_Button_j966e5db3d244b038af3c5d9a5fa8c07": {
+        "id": "AS_Button_j966e5db3d244b038af3c5d9a5fa8c07",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "suggesstions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f190be162a274cae84630bc40b9c4419"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d7cffbfbe28a4d6ea40b5e40b8b96a3c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "plantrip",
+            "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

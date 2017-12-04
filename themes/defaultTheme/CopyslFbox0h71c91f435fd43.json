@@ -1,0 +1,11 @@
+{
+  "background_image": "moutaintraveling_bg2.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "se5afd40d64c49628322fb2066f71810",
+  "wType": "FlexContainer"
+}

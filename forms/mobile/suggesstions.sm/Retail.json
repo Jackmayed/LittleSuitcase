@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "91.97%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s3d2dadb5cf5470783ca1e3bc33c7539",
+    "_top_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Retail": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "gce2f46500254f1aa00a2897d15da99c",
+                "srcKUID": "cab18f4396d146f98b7f892803e574b8",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "91.97%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "44dp"
+                }
+            }
+        },
+        "segmentTemp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g400a2894fbc47529d077f9afd2a3187",
+                "srcKUID": "c36be066724f4af08fd766fd1e22a632",
+                "wType": "Segment"
+            }
+        }
+    },
+    "id": "Retail",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "gce2f46500254f1aa00a2897d15da99c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "suggesstions",
+    "pf": "suggesstions",
+    "snaptogrid": true,
+    "sourceUserWidget": "cab18f4396d146f98b7f892803e574b8",
+    "wType": "UserWidgetInstance"
+}

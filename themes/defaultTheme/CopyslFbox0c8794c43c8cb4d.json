@@ -1,0 +1,11 @@
+{
+  "background_image": "field_bg1.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s1352a67c28342da846679be3e9e39ec",
+  "wType": "FlexContainer"
+}

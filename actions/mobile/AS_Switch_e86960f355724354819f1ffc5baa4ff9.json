@@ -1,0 +1,24 @@
+{
+    "AS_Switch_e86960f355724354819f1ffc5baa4ff9": {
+        "id": "AS_Switch_e86960f355724354819f1ffc5baa4ff9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hcaf0e61f3d44f27b0f6b93fef408163"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "background_image": "water_bg2.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "saa4683f1c074f40a786cf839eb0d0d4",
+  "wType": "FlexContainer"
+}

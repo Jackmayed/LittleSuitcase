@@ -1,0 +1,341 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentTemp",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "c36be066724f4af08fd766fd1e22a632",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_1.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "877 Rutherford Drive Apt. 109"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_2.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$24,000"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 bds, 2 ba, 1020 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_3.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_1.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "877 Rutherford Drive Apt. 109"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_2.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$24,000"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 bds, 2 ba, 1020 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_3.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_1.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "877 Rutherford Drive Apt. 109"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_2.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$24,000"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 bds, 2 ba, 1020 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_3.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "0253 Daisy Ramp Apt. 366"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            },
+            {
+                "imgFav": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rlfavorite_normal.png"
+                },
+                "imgRow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_rl_retail_image_1.png"
+                },
+                "lblCost": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$33,104"
+                },
+                "lblDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "877 Rutherford Drive Apt. 109"
+                },
+                "lblDetail": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 bds, 5 ba, 1452 sqft"
+                }
+            }
+        ],
+        "rowTemplateId": "g600ef8710584edba658c7199857dceb",
+        "rowtemplate": "CopyflxSeg1",
+        "widgetdatamap": {
+            "CopyflxSeg1": "CopyflxSeg1",
+            "flxFav": "flxFav",
+            "flxShadow": "flxShadow",
+            "imgFav": "imgFav",
+            "imgRow": "imgRow",
+            "lblCost": "lblCost",
+            "lblDescription": "lblDescription",
+            "lblDetail": "lblDetail"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "Retail",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "s5bad228b78b4cfd80ad312ed08d9878",
+    "rowskin": "s68025b444d741ac99fd9ac439b11187",
+    "rowtemplate": "CopyflxSeg1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sb75f5f5043c4bf38f8dbce21438ab01",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "d3d3d300",
+    "separatorrequired": true,
+    "separatorthickness": 2,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxSeg1": "CopyflxSeg1",
+        "flxFav": "flxFav",
+        "flxShadow": "flxShadow",
+        "imgFav": "imgFav",
+        "imgRow": "imgRow",
+        "lblCost": "lblCost",
+        "lblDescription": "lblDescription",
+        "lblDetail": "lblDetail"
+    },
+    "zindex": 1
+}

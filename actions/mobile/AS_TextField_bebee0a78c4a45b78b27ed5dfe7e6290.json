@@ -1,0 +1,21 @@
+{
+    "AS_TextField_bebee0a78c4a45b78b27ed5dfe7e6290": {
+        "id": "AS_TextField_bebee0a78c4a45b78b27ed5dfe7e6290",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hcaf0e61f3d44f27b0f6b93fef408163"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

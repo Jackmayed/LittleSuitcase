@@ -1,0 +1,19 @@
+{
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "ffffff00",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "font_color": "555555ff",
+  "font_name": "Helvetica",
+  "font_size": 126,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "font_name": "Oswald-Light"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s92098e6c2b740f1888e3939f8a591c1",
+  "wType": "TextField"
+}

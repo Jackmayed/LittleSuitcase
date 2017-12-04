@@ -1,0 +1,11 @@
+{
+  "background_image": "oceanview_bg2.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s097dd61b78e4ae5bfd8e85c7917c97d",
+  "wType": "FlexContainer"
+}
