@@ -1,0 +1,35 @@
+{
+    "AS_Button_e9e302a44a1848b9993ad7e97642bf60": {
+        "id": "AS_Button_e9e302a44a1848b9993ad7e97642bf60",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "LocationSuggestions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e7f1a5440c1b4df18d8a13aa373c1b54"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___je654fb2ab0148178faff22ecbb05a11",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "plantrip",
+            "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

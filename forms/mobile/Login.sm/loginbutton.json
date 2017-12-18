@@ -42,7 +42,7 @@
     "isvisible": true,
     "kuid": "e0aa76cb480049a4934b70d88921505f",
     "name": "kony.ui.Button",
-    "onclick": "AS_Button_e5480fd6db1f4832ac67fd02961b8f30",
+    "ontouchstart": "AS_Button_c93bbfa6e15348c1928ad7ee083766ac",
     "parent": "loginbackground",
     "pf": "Login",
     "wType": "Button",

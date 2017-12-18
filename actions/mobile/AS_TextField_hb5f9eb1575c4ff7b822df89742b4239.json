@@ -1,0 +1,21 @@
+{
+    "AS_TextField_hb5f9eb1575c4ff7b822df89742b4239": {
+        "id": "AS_TextField_hb5f9eb1575c4ff7b822df89742b4239",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "newtrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d445bfcd065f433da37a236e6299580c"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

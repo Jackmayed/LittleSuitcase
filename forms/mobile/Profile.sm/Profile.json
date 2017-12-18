@@ -27,10 +27,10 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e9f7b8c285af46",
-        "Image0d84a16c5ece043",
-        "lblName",
-        "FlexContainer0j3a5954a777d46"
+        "Profilebackgroubd",
+        "Username",
+        "profileinfo",
+        "Image0dd4db563445a4e"
     ],
     "containerweight": 100,
     "controllerInfo": {

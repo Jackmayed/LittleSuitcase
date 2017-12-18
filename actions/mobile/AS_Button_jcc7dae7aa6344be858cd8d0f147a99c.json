@@ -1,0 +1,30 @@
+{
+    "AS_Button_jcc7dae7aa6344be858cd8d0f147a99c": {
+        "id": "AS_Button_jcc7dae7aa6344be858cd8d0f147a99c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Profile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2b6f201ff76483eb2d14064e69ee4f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c51a3872979d499b94aac8dcc12fdd8c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "/*define({ \n //Type your controller code here \n  \n});\n\n*/\n\nfunction loadDatabase() {\n\t//create a connection to the service providing the database\n    var httpclient = new kony.net.HttpRequest();\n    //open this connection with a specific type: GET or POST, leave the last param as false\n    httpclient.open(constants.HTTP_METHOD_GET, \"https://littlesuitcase-7735.restdb.io/rest/useraccounts\", false);\n  \t//set the header for the HTTP request, this will not have to change\n  \thttpclient.setRequestHeader(\"x-apikey\", \"1368977aab130f9a6e6ec87cbb08c152ad458\");\n  \ttry {\n      httpclient.send();\n      var response = httpclient.response;\n      \n      var lblLayout ={containerWeight:50, padding:[5,5,5,5], margin:[5,5,5,5], hExpand:true, vExpand:false};\n    var lblLayout2 ={renderAsAnchor:true, wrapping:constants.WIDGET_TEXT_WORD_WRAP};\n      \n      var nationality = '';\n      var age = '';\n      var birthdate = '';\n      var luggage = '';\n      var photo = '';\n      var id = '';\n      \n      var y =100;\n      \n      for (var profile in response) {\n        for (var i in profile) {\n          if (i == \"Nationality\") nationality = profile[i];\n          if (i == \"Age\") age = profile[i];\n          if (i == \"Birthdate\") birthdate = profile[i];\n          if (i == \"Luggage Description\") luggage = profile[i];\n          if (i == \"Photo\") photo = profile[i];\n          if (i ==\"_id\") id = profile[i];\n        }\n        //assign the variables to the UI\n        labelText = nationality;\n        var lblBasic = {id:id, skin:\"lblSkn\", text:labelText, isVisible:true};\n        var lbl = new kony.ui.Label(lblBasic, lblLayout, lblLayout2);//create on runtime a label (could be another UI element) to insert the messages\n        y +=100;\n        lbl.centerY =y + \"px\";\n        lbl.addGestureRecognizer (constants.GESTURE_TYPE_TAP,{fingers: 1}, gestureCB);// could use instead: GESTURE_TYPE_SWIPE\n        this.view.add(lbl);\n      }\n    } \n  \tcatch(err) {\n    //show a message with the error\n    }\n }\n\nloadDatabase();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

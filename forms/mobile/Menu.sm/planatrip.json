@@ -26,7 +26,7 @@
     "_text_": "Plan a Trip",
     "_top_": {
         "type": "string",
-        "value": "195dp"
+        "value": "225dp"
     },
     "_width_": {
         "type": "string",
@@ -43,7 +43,7 @@
     "kuid": "g73a61c47126480ba0e11195b0c5fe76",
     "name": "kony.ui.Button",
     "ontouchstart": "AS_Button_a73ade39f7224212a82db72cb4eaf190",
-    "parent": "FlexContainer0aeb46b5905cf4d",
+    "parent": "menubackground",
     "pf": "Menu",
     "wType": "Button",
     "zindex": 1

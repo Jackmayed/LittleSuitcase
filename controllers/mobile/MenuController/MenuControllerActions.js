@@ -12,14 +12,19 @@ define({
         var ntf = new kony.mvc.Navigation("Tips");
         ntf.navigate();
     },
-    AS_Button_bcfdac1cdd09464e8cc5b29f6ef9c2b9: function AS_Button_bcfdac1cdd09464e8cc5b29f6ef9c2b9(eventobject, x, y) {
+    AS_Button_bb22781c0e3b4f08b3b16a2880ccf8d5: function AS_Button_bb22781c0e3b4f08b3b16a2880ccf8d5(eventobject, x, y) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("Profile");
+        var ntf = new kony.mvc.Navigation("Profile2");
         ntf.navigate();
     },
-    AS_Button_e1193139faaf4dc99ad2ec76390a63a2: function AS_Button_e1193139faaf4dc99ad2ec76390a63a2(eventobject, x, y) {
+    AS_Label_a81c55be00e74fc6b291f27535c03db4: function AS_Label_a81c55be00e74fc6b291f27535c03db4(eventobject, x, y) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("Gallery");
+        var ntf = new kony.mvc.Navigation("undefined");
+        ntf.navigate();
+    },
+    AS_Image_b49a2cae53604b35bb580468634693fd: function AS_Image_b49a2cae53604b35bb580468634693fd(eventobject, x, y) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("London");
         ntf.navigate();
     }
 });

@@ -1,0 +1,18 @@
+{
+    "AS_Button_ec6662487f6a4736a9cdacfc21cd1839": {
+        "id": "AS_Button_ec6662487f6a4736a9cdacfc21cd1839",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "newtrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d445bfcd065f433da37a236e6299580c"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

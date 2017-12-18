@@ -1,0 +1,30 @@
+{
+    "AS_Button_dc69c43b932341c18892e66d7916fcb1": {
+        "id": "AS_Button_dc69c43b932341c18892e66d7916fcb1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Profile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2b6f201ff76483eb2d14064e69ee4f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jfdf1b77758149aa89f9f739021c4071",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.ui.Alert({message: getUserID()}, []);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

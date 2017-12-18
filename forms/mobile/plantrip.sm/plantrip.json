@@ -27,8 +27,10 @@
     },
     "canUpdateUI": true,
     "children": [
+        "plantripbackground",
         "headerContainer05",
-        "AlertsWithThumbnails"
+        "triphousingbox",
+        "currenttripplans"
     ],
     "containerweight": 100,
     "controllerInfo": {

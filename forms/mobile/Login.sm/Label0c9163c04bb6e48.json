@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "dfe18cb16f01494e93350e20175263b9",
     "name": "kony.ui.Label",
-    "parent": "CopyFlexContainer0a5f439e6b47744",
+    "parent": "rememberme",
     "pf": "Login",
     "tooltip": "",
     "wType": "Label",

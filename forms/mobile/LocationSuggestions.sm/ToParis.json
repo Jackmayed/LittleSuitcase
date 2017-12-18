@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8370f8824274f5b8658080a5f8e5adf",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "440dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "ToParis",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c09e015af5154ad0981857e34d1205e5",
+    "name": "kony.ui.Button",
+    "parent": "LocationSuggestions",
+    "pf": "LocationSuggestions",
+    "wType": "Button",
+    "zindex": 1
+}

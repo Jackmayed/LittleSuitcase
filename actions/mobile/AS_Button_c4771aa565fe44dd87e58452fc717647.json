@@ -1,0 +1,35 @@
+{
+    "AS_Button_c4771aa565fe44dd87e58452fc717647": {
+        "id": "AS_Button_c4771aa565fe44dd87e58452fc717647",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "London",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f8cdd80e48aa4fb48faa0f4c4b7fac96"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___g983de7c8b3b49d68309a18e184f3e76",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "plantrip",
+            "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

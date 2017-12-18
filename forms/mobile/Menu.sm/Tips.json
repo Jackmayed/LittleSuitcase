@@ -26,7 +26,7 @@
     "_text_": "Tips",
     "_top_": {
         "type": "string",
-        "value": "415dp"
+        "value": "430dp"
     },
     "_width_": {
         "type": "string",
@@ -43,7 +43,7 @@
     "kuid": "g89f863c83644dc386613d7b39e2c8a3",
     "name": "kony.ui.Button",
     "ontouchstart": "AS_Button_df600a4db2394f3bad73ea1d63dc754f",
-    "parent": "FlexContainer0aeb46b5905cf4d",
+    "parent": "menubackground",
     "pf": "Menu",
     "wType": "Button",
     "zindex": 1

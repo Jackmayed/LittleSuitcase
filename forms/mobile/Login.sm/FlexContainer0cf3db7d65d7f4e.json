@@ -36,9 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0cf626259d1f443",
-        "CopyFlexContainer0e2bd655705c84a",
-        "CopyFlexContainer0a5f439e6b47744"
+        "loginemail",
+        "loginpassword",
+        "rememberme"
     ],
     "clipbounds": true,
     "containerweight": 100,

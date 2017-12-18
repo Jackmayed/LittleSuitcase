@@ -1,0 +1,38 @@
+{
+    "AS_TextField_d53c3eae1dc04b42bdbfabce7c161642": {
+        "id": "AS_TextField_d53c3eae1dc04b42bdbfabce7c161642",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwu22657f2ca944a70999b205f7d26a7b8",
+            "type": "userwidgets",
+            "KUID": "u22657f2ca944a70999b205f7d26a7b8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____a875260b30f8437898f77655e7a2e9f1",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "EF.Adrs1BxIcn",
+            "widgetId": "ContainerAddressBoxWithIcon",
+            "propertyName": "skin",
+            "propertyValue": "TxtFldBoxNormal",
+            "itemKUID": "u22657f2ca944a70999b205f7d26a7b8",
+            "widgetKUID": "c8879dfca8c34d04a8271f709497c139",
+            "skinKUID": "s00b20a697b440d199aeeae778c817d7",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.ContainerAddressBoxWithIcon"
+        }]
+    }
+}

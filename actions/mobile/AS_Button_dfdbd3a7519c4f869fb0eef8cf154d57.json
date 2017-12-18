@@ -1,0 +1,24 @@
+{
+    "AS_Button_dfdbd3a7519c4f869fb0eef8cf154d57": {
+        "id": "AS_Button_dfdbd3a7519c4f869fb0eef8cf154d57",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Profile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2b6f201ff76483eb2d14064e69ee4f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b107a41e13bd42b2a02ea0397eb8e422",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "/*define({ \n //Type your controller code here \n  \n});\n\n*/\n\nfunction loadDatabase() {\n\t//create a connection to the service providing the database\n    var httpclient = new kony.net.HttpRequest();\n    //open this connection with a specific type: GET or POST, leave the last param as false\n    httpclient.open(constants.HTTP_METHOD_GET, \"https://littlesuitcase-7735.restdb.io/useraccounts\", false);\n  \t//set the header for the HTTP request, this will not have to change\n  \thttpclient.setRequestHeader(\"x-apikey\", \"1368977aab130f9a6e6ec87cbb08c152ad458\");\n  \ttry {\n      httpclient.send();\n      var response = httpclient.response;\n      \n      var nationality;\n      var age;\n      var birthdate;\n      var luggage;\n      var photo;\n      \n      for (var profile in response) {\n        for (var i in profile) {\n          if (i == \"Nationality\") nationality = profile[i];\n          if (i == \"Age\") age = profile[i];\n          if (i == \"Birthdate\") birthdate = profile[i];\n          if (i == \"Luggage Description\") luggage = profile[i];\n          if (i == \"Photo\") photo = profile[i];\n        }\n        //assign the variables to the UI\n        var txtNation = {id: \"Nationality\", text: nationality, isVisibile: true};\n        var txtBoxNation = new kony.ui.TextBox(txtNation, layoutProperties, platformSpecificProperties);\n        this.view.add(txtBoxNation);\n      }\n    } \n  \tcatch(err) {\n    //show a message with the error\n    }\n }\n\nloadDatabase();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

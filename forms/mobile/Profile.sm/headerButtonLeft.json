@@ -55,7 +55,7 @@
     "kuid": "a087af1a9912433cadd1965e72d539ab",
     "masterType": 1,
     "name": "kony.ui.Button",
-    "ontouchstart": "AS_Button_b6eb1c9c5fd9457f903c50c5572c6ac5",
+    "ontouchstart": "AS_Button_d17007050b3a4f68b6d12e19fd310603",
     "paddingLocked": false,
     "paddinginpixel": false,
     "parent": "headerContainer05",

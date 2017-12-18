@@ -1,0 +1,216 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgFav": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymp_rlfavorite_normal.png"
+            },
+            "imgRow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "london.jpg"
+            },
+            "lblCost": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "London"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgFav": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymp_rlfavorite_normal.png"
+            },
+            "imgRow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "amsterdam_canal__8313912614_.jpg"
+            },
+            "lblCost": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Amsterdam"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgFav": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymp_rlfavorite_normal.png"
+            },
+            "imgRow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "paris.jpg"
+            },
+            "lblCost": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paris"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgFav": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymp_rlfavorite_normal.png"
+            },
+            "imgRow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "madrid.jpg"
+            },
+            "lblCost": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Madrid"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgFav": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymp_rlfavorite_normal.png"
+            },
+            "imgRow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rome.jpg"
+            },
+            "lblCost": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rome"
+            },
+            "lblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "505dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "editstyle": "none",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "suggestlocations",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "editStyle": "none",
+            "indicator": "rowselect",
+            "showProgressIndicator": true
+        }
+    },
+    "isvisible": true,
+    "kuid": "c0e932a6f8284665aa7e0b2b1711d6db",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "LocationSuggestions",
+    "pf": "LocationSuggestions",
+    "retainselection": false,
+    "rowTemplateId": "g600ef8710584edba658c7199857dceb",
+    "rowcounter": 4,
+    "rowfocusskin": "s0ae433713d04e458b31081ca62cd84b",
+    "rowskin": "s1b29e51dcf641c699394760583bd766",
+    "rowtemplate": "CopyflxSeg1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2126d0995f34964a38fbe22d646e538",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxSeg1": "CopyflxSeg1",
+        "flxFav": "flxFav",
+        "flxShadow": "flxShadow",
+        "imgFav": "imgFav",
+        "imgRow": "imgRow",
+        "lblCost": "lblCost",
+        "lblDescription": "lblDescription",
+        "lblDetail": "lblDetail"
+    },
+    "zindex": 1
+}

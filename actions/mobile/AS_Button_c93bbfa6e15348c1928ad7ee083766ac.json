@@ -1,0 +1,77 @@
+{
+    "AS_Button_c93bbfa6e15348c1928ad7ee083766ac": {
+        "id": "AS_Button_c93bbfa6e15348c1928ad7ee083766ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hcaf0e61f3d44f27b0f6b93fef408163"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___if33f18a7dd647038e6c175e39d1699a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "login",
+            "display": "login",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "IF_CONDITION__bab396f782724c5799cf1e4a682d5446",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "varvalue",
+                "leftValue": "userID",
+                "operator": "!==",
+                "rightValueType": "varvalue",
+                "rightValue": "emptyUser"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM___aa4d0056c5f74a839790b98f25cf9aaf",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Menu",
+            "formKUID": "e4f86753573244729786e7bd46090a14",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION__bab396f782724c5799cf1e4a682d5446",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "ELSE_CONDITION__d7499facac59485aa2b8ce780a0e8cc0",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__df28e0ecbf1d48eeb35565f558484a17",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.ui.Alert({message: \"Email or password is incorrect \"}, {});",
+            "parentId": "ELSE_CONDITION__d7499facac59485aa2b8ce780a0e8cc0",
+            "callbackType": null
+        }]
+    }
+}

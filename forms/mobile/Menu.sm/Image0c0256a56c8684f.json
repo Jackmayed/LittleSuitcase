@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "125dp"
+        "value": "160dp"
     },
     "_left_": {
         "type": "string",
-        "value": "70dp"
+        "value": "43dp"
     },
     "_margin_": [
         0,
@@ -27,11 +27,11 @@
     "_src_": "artboard_11.png",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "25dp"
     },
     "_width_": {
         "type": "string",
-        "value": "182dp"
+        "value": "235dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -49,6 +49,7 @@
     "isvisible": true,
     "kuid": "adb42a14049f42f0a7c0f3bf23c9969d",
     "name": "kony.ui.Image2",
+    "ontouchstart": "AS_Image_b49a2cae53604b35bb580468634693fd",
     "parent": "Menu",
     "pf": "Menu",
     "srcType": 1,

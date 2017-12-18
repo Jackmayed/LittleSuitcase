@@ -1,0 +1,24 @@
+{
+    "AS_Label_h34edfc193254902928b9953c25c793a": {
+        "id": "AS_Label_h34edfc193254902928b9953c25c793a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Menu",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e4f86753573244729786e7bd46090a14"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

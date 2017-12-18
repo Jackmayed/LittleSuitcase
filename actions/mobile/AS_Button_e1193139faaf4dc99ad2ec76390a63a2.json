@@ -22,7 +22,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___c7aa3f04e0084fb483f64f43b3b087b3",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "Gallery",
             "formKUID": "f333be8e9a3e40c28047c226196dbb24",
             "mappings": {},
             "mappingsOrder": [],

@@ -54,7 +54,8 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "none"
+            "indicator": "none",
+            "progressIndicatorColor": "white"
         }
     },
     "isvisible": true,
@@ -69,19 +70,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_1.png"
+                    "src": "paris.jpg"
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": "Paris, France"
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "877 Rutherford Drive Apt. 109"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -91,19 +92,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_2.png"
+                    "src": "london.jpg"
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$24,000"
+                    "text": "London, England"
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "3 bds, 2 ba, 1020 sqft"
+                    "text": ""
                 }
             },
             {
@@ -113,19 +114,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_3.png"
+                    "src": "rome.jpg"
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": "Rome, Italy"
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -135,19 +136,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_1.png"
+                    "src": "madrid.jpg"
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": "Madrid, Spain"
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "877 Rutherford Drive Apt. 109"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -157,19 +158,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_2.png"
+                    "src": "amsterdam_canal__8313912614_.jpg"
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$24,000"
+                    "text": "Amsterdam, The Netherlands"
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "3 bds, 2 ba, 1020 sqft"
+                    "text": ""
                 }
             },
             {
@@ -179,19 +180,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_3.png"
+                    "src": ""
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": ""
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -201,19 +202,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_1.png"
+                    "src": ""
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": ""
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "877 Rutherford Drive Apt. 109"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -223,19 +224,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_2.png"
+                    "src": ""
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$24,000"
+                    "text": ""
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "3 bds, 2 ba, 1020 sqft"
+                    "text": ""
                 }
             },
             {
@@ -245,19 +246,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_3.png"
+                    "src": ""
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": ""
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "0253 Daisy Ramp Apt. 366"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             },
             {
@@ -267,19 +268,19 @@
                 },
                 "imgRow": {
                     "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                    "src": "konymp_rl_retail_image_1.png"
+                    "src": ""
                 },
                 "lblCost": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "$33,104"
+                    "text": ""
                 },
                 "lblDescription": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "877 Rutherford Drive Apt. 109"
+                    "text": ""
                 },
                 "lblDetail": {
                     "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "4 bds, 5 ba, 1452 sqft"
+                    "text": ""
                 }
             }
         ],
@@ -305,6 +306,7 @@
     },
     "parent": "Retail",
     "pf": "userwidgetmodel",
+    "progressindicatorcolor": "white",
     "retainselection": false,
     "rowcounter": 9,
     "rowfocusskin": "s5bad228b78b4cfd80ad312ed08d9878",
@@ -320,9 +322,9 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "d3d3d300",
+    "separatorcolor": "d3d3d306",
     "separatorrequired": true,
-    "separatorthickness": 2,
+    "separatorthickness": 3,
     "showscrollbars": false,
     "viewtype": "tableview",
     "wType": "Segment",

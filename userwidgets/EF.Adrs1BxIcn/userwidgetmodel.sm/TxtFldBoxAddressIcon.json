@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Address",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s745cd456c0a4bc8872ece579bc885ea",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "android": {
+        "onBeginEditing": "AS_TextField_hc672bd7337948d2a3f69960a038ea90",
+        "onEndEditing": "AS_TextField_b65185d615ce4825a57e5249e259640d"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "se9f039217c048e1b052eacfc6e2c735",
+    "id": "TxtFldBoxAddressIcon",
+    "info": null,
+    "iphone": {
+        "onBeginEditing": "AS_TextField_f0e7ffca3fc142edb9b5ff31b23916e0",
+        "onEndEditing": "AS_TextField_d53c3eae1dc04b42bdbfabce7c161642",
+        "psp": {
+            "showClearButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "je32d7157ec548fc9f79783d408a2376",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "ContainerAddressBoxWithIcon",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s8daec0ff7034063bb0b1a9bd10147a1",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "vizProps": {},
+    "wType": "TextField",
+    "zindex": 1
+}

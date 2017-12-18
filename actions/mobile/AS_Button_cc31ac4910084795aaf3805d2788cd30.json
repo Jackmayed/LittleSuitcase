@@ -1,0 +1,18 @@
+{
+    "AS_Button_cc31ac4910084795aaf3805d2788cd30": {
+        "id": "AS_Button_cc31ac4910084795aaf3805d2788cd30",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "London",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f8cdd80e48aa4fb48faa0f4c4b7fac96"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -35,6 +35,12 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "plantripController"
+        }
+    },
     "displaytext": false,
     "focusskin": "s0696c3010af4a22814c5ede15ab175c",
     "id": "headerButtonRight",

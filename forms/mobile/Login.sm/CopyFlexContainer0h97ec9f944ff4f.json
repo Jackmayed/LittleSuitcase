@@ -45,7 +45,7 @@
     "kuid": "hc5b6d1bc5fe4c2386dbb76723997e13",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "CopyFlexContainer0e2bd655705c84a",
+    "parent": "loginpassword",
     "pf": "Login",
     "snapgridsize": 10,
     "snaptogrid": true,

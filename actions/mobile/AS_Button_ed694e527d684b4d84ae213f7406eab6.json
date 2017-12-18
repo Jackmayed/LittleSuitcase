@@ -1,0 +1,29 @@
+{
+    "AS_Button_ed694e527d684b4d84ae213f7406eab6": {
+        "id": "AS_Button_ed694e527d684b4d84ae213f7406eab6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "newtrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d445bfcd065f433da37a236e6299580c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b9eb4abcb450427683f61ec6d0318a9c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "plantrip",
+            "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

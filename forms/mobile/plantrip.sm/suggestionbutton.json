@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3f024529c134710adda3bef6a206fba",
+    "_text_": "Suggestions",
+    "_top_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "suggestionbutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "g276177f962f4c878a7e04b504fc0d33",
+    "name": "kony.ui.Button",
+    "ontouchstart": "AS_Button_ie56f096304e44d6aab3b111145c80e8",
+    "parent": "plantripbackground",
+    "pf": "plantrip",
+    "wType": "Button",
+    "zindex": 1
+}

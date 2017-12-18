@@ -45,7 +45,7 @@
     "kuid": "aaadb184e5134032bba4a990e005e3a4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0cf626259d1f443",
+    "parent": "loginemail",
     "pf": "Login",
     "snapgridsize": 10,
     "snaptogrid": true,

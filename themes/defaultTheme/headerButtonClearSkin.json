@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "font_size": 120,
     "isForked": true
   },
@@ -79,7 +79,7 @@
     },
     "background_style": "linear",
     "bg_type": "ms_gradient",
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -89,7 +89,7 @@
     }
   },
   "iphone": {
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "font_size": 120,
     "isForked": true
   },
@@ -111,11 +111,12 @@
     },
     "background_style": "linear",
     "bg_type": "ms_gradient",
+    "font_name": "FontAwesome",
     "isForked": true
   },
   "kuid": "s6c81f0bd15c439395f974ff8a254fc7",
   "spaan": {
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "font_size": 120,
     "isForked": true
   },
@@ -142,7 +143,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -171,7 +172,7 @@
     "isForked": true
   },
   "spaip": {
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "font_size": 120,
     "isForked": true
   },
@@ -198,7 +199,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -289,7 +290,7 @@
     },
     "background_style": "linear",
     "bg_type": "ms_gradient",
-    "font_name": "VisualizerFontIcon",
+    "font_name": "Helvetica",
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -321,10 +322,12 @@
     },
     "background_style": "linear",
     "bg_type": "ms_gradient",
+    "font_name": "FontAwesome",
     "isForked": true
   },
   "winphone8": {
+    "font_name": "FontAwesome",
     "font_size": 120,
-    "isForked": false
+    "isForked": true
   }
 }

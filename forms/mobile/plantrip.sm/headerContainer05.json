@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100.31%"
+        "value": "100.00%"
     },
     "allboxes": [],
     "android": {
@@ -42,10 +42,10 @@
     "canUpdateUI": true,
     "children": [
         "headerTitleLabel",
-        "headerIconRight",
         "headerIconLeft",
         "headerButtonLeft",
-        "headerButtonRight"
+        "headerButtonRight",
+        "PlusSquareLight"
     ],
     "clipbounds": true,
     "containerweight": 100,

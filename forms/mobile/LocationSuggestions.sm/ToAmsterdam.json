@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s630f7da2146467b96277cbd3dda6984",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "272dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "ToAmsterdam",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h63752692e38416a8a0d6e7f8cf74caa",
+    "name": "kony.ui.Button",
+    "parent": "LocationSuggestions",
+    "pf": "LocationSuggestions",
+    "wType": "Button",
+    "zindex": 1
+}

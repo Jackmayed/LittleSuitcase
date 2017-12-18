@@ -1,0 +1,11 @@
+{
+  "background_image": "journal_bg1.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "sa5b088d4ae94e029b3b6d4917e4aa9e",
+  "wType": "FlexContainer"
+}

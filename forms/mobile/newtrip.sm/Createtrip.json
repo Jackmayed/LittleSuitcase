@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s45517f35c2c40e380b59f1fc06346da",
+    "_text_": "Create",
+    "_top_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "Createtrip",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j8e3e1e82eb3462984b0d819e15e6757",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_ec6662487f6a4736a9cdacfc21cd1839",
+    "parent": "whitebackground",
+    "pf": "newtrip",
+    "wType": "Button",
+    "zindex": 1
+}

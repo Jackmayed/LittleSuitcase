@@ -1,0 +1,34 @@
+{
+    "AS_Button_d70491ab087a4d2dafe08f279a3d9a06": {
+        "id": "AS_Button_d70491ab087a4d2dafe08f279a3d9a06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Profile2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cdc3593536614129a2415011f40da5dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___daa42318fef94f3fbd3e4771954e723d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveProfile",
+            "display": "saveProfile",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

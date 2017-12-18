@@ -13,7 +13,6 @@
             "name": "y"
         }],
         "contextObj": {
-            "name": "suggesstions",
             "type": "forms",
             "platform": null,
             "KUID": "f190be162a274cae84630bc40b9c4419"

@@ -28,9 +28,7 @@
     "device": "iPhone6",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [
-        "u3d4dfe0ad6d4abea2f6d1d52e12bb20"
-    ],
+    "globalUserWidgetRefs": [],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
