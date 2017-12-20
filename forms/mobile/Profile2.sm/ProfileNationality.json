@@ -23,21 +23,25 @@
         0
     ],
     "_placeholder_": "Nationality",
-    "_skin_": "sf8feaaaed2a42e7810de6b4f80f8b11",
-    "_text_": "TextBox2",
+    "_skin_": "s39d585a6b6e4d829e1ab594a9f369ff",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "180dp"
+        "value": "224dp"
     },
     "_width_": {
         "type": "string",
-        "value": "349dp"
+        "value": "287dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

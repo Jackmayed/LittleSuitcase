@@ -23,21 +23,25 @@
         0
     ],
     "_placeholder_": "Age",
-    "_skin_": "sf8feaaaed2a42e7810de6b4f80f8b11",
-    "_text_": "TextBox2",
+    "_skin_": "s372342ded50491ba354202cdb0e1557",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "225dp"
+        "value": "278dp"
     },
     "_width_": {
         "type": "string",
-        "value": "349dp"
+        "value": "285dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

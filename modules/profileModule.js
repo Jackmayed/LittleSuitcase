@@ -57,8 +57,15 @@ function getProfile(){
    try {
     httpClient.send();
     var response = httpClient.response;
-    var textBox = {id: "ProfileName", text: response.Name, isVisible: true};
-     kony.application.getCurrentForm().ProfileName.text = "response.Name";
+     //kony.ui.Alert({message:response.Name}, {});
+    //var textBox = {id: "ProfileName", text: response.Name, isVisible: true};
+    var form = kony.application.getCurrentForm();
+     	
+    	form.ProfileNationality.text = response.Nationality;
+     	form.ProfileAge.text = response.Age;
+     	form.ProfileBirthdate.text = response.Birthdate;
+     	form.ProfileLuggage.text = response.Luggage;
+     	form.ProfileName.text = response.Name;
   } catch(err) {
     kony.ui.Alert({message: err + "from getProfile()"}, {});
   }

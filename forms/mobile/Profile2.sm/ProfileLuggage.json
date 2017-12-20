@@ -23,21 +23,25 @@
         2
     ],
     "_placeholder_": "Luggage description\n",
-    "_skin_": "s9a3aa68a2c84e76ab5e910290572cd9",
-    "_text_": "TextArea2",
+    "_skin_": "s56d4f28b38a490c8113fef0487dfdf3",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "314dp"
+        "value": "383dp"
     },
     "_width_": {
         "type": "string",
-        "value": "350dp"
+        "value": "285dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "closebuttontext": "",
     "containerheight": "",
     "containerheightmode": 1,

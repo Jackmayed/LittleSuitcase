@@ -11,13 +11,17 @@ define({
         var self = this;
         return saveProfile.call(this);
     },
+    AS_TextField_ec063fe743f94b04a65415f72ce151ef: function AS_TextField_ec063fe743f94b04a65415f72ce151ef(eventobject, changedtext) {
+        var self = this;
+        self.view.ProfileName["text"] = "";
+    },
     AS_Button_d4f0a2ff09e443ef9096b502a7443066: function AS_Button_d4f0a2ff09e443ef9096b502a7443066(eventobject, x, y) {
         var self = this;
         setUserID('');
         var ntf = new kony.mvc.Navigation("Login");
         ntf.navigate();
     },
-    AS_Form_c98e06e14dec4ef2b067bec7f3f1fa2b: function AS_Form_c98e06e14dec4ef2b067bec7f3f1fa2b(eventobject) {
+    AS_Form_ca682435afe04787b0fea990b5ea0011: function AS_Form_ca682435afe04787b0fea990b5ea0011(eventobject) {
         var self = this;
         return getProfile.call(this);
     }

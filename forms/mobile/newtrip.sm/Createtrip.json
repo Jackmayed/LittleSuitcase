@@ -42,7 +42,7 @@
     "isvisible": true,
     "kuid": "j8e3e1e82eb3462984b0d819e15e6757",
     "name": "kony.ui.Button",
-    "onclick": "AS_Button_ec6662487f6a4736a9cdacfc21cd1839",
+    "ontouchstart": "AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9",
     "parent": "whitebackground",
     "pf": "newtrip",
     "wType": "Button",

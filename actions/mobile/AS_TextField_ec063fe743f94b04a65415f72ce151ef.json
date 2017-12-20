@@ -1,0 +1,37 @@
+{
+    "AS_TextField_ec063fe743f94b04a65415f72ce151ef": {
+        "id": "AS_TextField_ec063fe743f94b04a65415f72ce151ef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "Profile2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cdc3593536614129a2415011f40da5dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___f238c13e42f7447ea986e396a39374d8",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Profile2",
+            "widgetId": "ProfileName",
+            "propertyName": "text",
+            "propertyValue": "",
+            "itemKUID": "cdc3593536614129a2415011f40da5dd",
+            "widgetKUID": "ed85b70ba1c54767a207a03ed46a9752",
+            "isSkinProperty": false,
+            "wType": "TextField",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.ProfileName"
+        }]
+    }
+}

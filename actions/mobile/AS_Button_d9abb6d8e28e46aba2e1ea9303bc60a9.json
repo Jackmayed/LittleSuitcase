@@ -1,0 +1,34 @@
+{
+    "AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9": {
+        "id": "AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "newtrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d445bfcd065f433da37a236e6299580c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b2817908574b41debe81924e76f2b823",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createTrip",
+            "display": "createTrip",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

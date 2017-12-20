@@ -30,7 +30,7 @@
         "plantripbackground",
         "headerContainer05",
         "triphousingbox",
-        "currenttripplans"
+        "tripSegment"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -84,6 +84,7 @@
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "iphone",
+    "preshow": "AS_Form_d91a0b0ed61f4962844d4f4dcdb4a547",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,

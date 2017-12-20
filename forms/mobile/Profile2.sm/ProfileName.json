@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "144dp"
+        "value": "37dp"
     },
     "_margin_": [
         0,
@@ -22,26 +22,30 @@
         0,
         0
     ],
-    "_placeholder_": "",
-    "_skin_": "sf8feaaaed2a42e7810de6b4f80f8b11",
-    "_text_": "TextBox2",
+    "_placeholder_": "Name",
+    "_skin_": "s9c65efd17cc4b5c8945864b8f8a9016",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "23dp"
     },
     "_width_": {
         "type": "string",
-        "value": "220dp"
+        "value": "248dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "ProfileName",
     "info": null,
     "isvisible": true,
@@ -49,6 +53,7 @@
     "kuid": "ed85b70ba1c54767a207a03ed46a9752",
     "mode": "A",
     "name": "kony.ui.TextBox2",
+    "ontextchange": "AS_TextField_ec063fe743f94b04a65415f72ce151ef",
     "parent": "FlexContainer0g655c15dc0cc4d",
     "pf": "Profile2",
     "securetextentry": false,

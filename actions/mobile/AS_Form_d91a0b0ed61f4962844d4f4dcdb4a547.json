@@ -1,0 +1,28 @@
+{
+    "AS_Form_d91a0b0ed61f4962844d4f4dcdb4a547": {
+        "id": "AS_Form_d91a0b0ed61f4962844d4f4dcdb4a547",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "plantrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d337c767d71645ac8e0ce8bf8618bbec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d99e7eecd178409ca6110e2ec55c5d76",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getAllTrips",
+            "display": "getAllTrips",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

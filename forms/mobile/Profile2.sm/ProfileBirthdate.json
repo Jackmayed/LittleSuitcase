@@ -23,21 +23,25 @@
         0
     ],
     "_placeholder_": "Birthdate",
-    "_skin_": "sf8feaaaed2a42e7810de6b4f80f8b11",
-    "_text_": "TextBox2",
+    "_skin_": "sc049511f64e48c99d363ee8944bdaee",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "270dp"
+        "value": "330dp"
     },
     "_width_": {
         "type": "string",
-        "value": "350dp"
+        "value": "285dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

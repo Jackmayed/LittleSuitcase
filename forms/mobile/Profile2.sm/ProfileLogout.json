@@ -22,17 +22,21 @@
         0,
         0
     ],
-    "_skin_": "s7d50b8f4a57472a95ea1f13957c4e22",
+    "_skin_": "s2b79efd17fd46a0aece6a0b50389e56",
     "_text_": "Logout",
     "_top_": {
         "type": "string",
-        "value": "527dp"
+        "value": "585dp"
     },
     "_width_": {
         "type": "string",
         "value": "260dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,

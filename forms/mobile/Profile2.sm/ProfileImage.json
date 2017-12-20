@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "125dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "83dp"
     },
     "_margin_": [
         0,
@@ -27,13 +27,17 @@
     "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "77dp"
     },
     "_width_": {
         "type": "string",
-        "value": "125dp"
+        "value": "155dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",

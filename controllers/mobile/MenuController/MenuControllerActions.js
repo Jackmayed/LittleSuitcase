@@ -24,7 +24,7 @@ define({
     },
     AS_Image_b49a2cae53604b35bb580468634693fd: function AS_Image_b49a2cae53604b35bb580468634693fd(eventobject, x, y) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("London");
+        var ntf = new kony.mvc.Navigation("createTrip");
         ntf.navigate();
     }
 });

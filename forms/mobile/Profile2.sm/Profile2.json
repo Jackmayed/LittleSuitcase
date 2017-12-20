@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
-    "_init_": "AS_Form_c98e06e14dec4ef2b067bec7f3f1fa2b",
     "_margin_": [
         0,
         0,
@@ -43,7 +42,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "iPhone5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Profile2",
@@ -84,10 +83,11 @@
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "iphone",
+    "preshow": "AS_Form_ca682435afe04787b0fea990b5ea0011",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "iOS_iPhone5",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
