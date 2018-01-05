@@ -8,7 +8,8 @@ function login() {
   var form = kony.application.getCurrentForm();
   //for each of the items, put them in a variable
   var emailTxt = form.loginemailinput.text;
-  //var passTxt = form.loginpasswordinput.text;
+  var passTxt = form.loginpasswordinput.text;
+   //kony.ui.Alert({message: passText}, {});
   
   //try to connect to the database
   //1. create a request to the database
@@ -19,11 +20,11 @@ function login() {
     httpclient.send();
     var response = httpclient.response;
     //to check the data from db
-    //kony.ui.Alert({message: response[0].Email}, {});
+   // kony.ui.Alert({message: passTxt}, {});
     
     //var userId = response[0];
     for (var i in response) {
-      if (emailTxt == response[i].Email) {
+      if (emailTxt == response[i].Email && passTxt== response[i].Password) {
         setUserID(response[i]._id);
       }
     }

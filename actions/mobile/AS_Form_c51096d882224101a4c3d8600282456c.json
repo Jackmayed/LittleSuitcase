@@ -1,0 +1,39 @@
+{
+    "AS_Form_c51096d882224101a4c3d8600282456c": {
+        "id": "AS_Form_c51096d882224101a4c3d8600282456c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LocationSuggestion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h57ffa4dd8464e2bbd6958061a6bb76d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dea3586774e14774a20d5cae8be8f9ac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "registerAccelerationEvents",
+            "display": "registerAccelerationEvents",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "NAVIGATE_TO_FORM___e73ce881a49b4da9a674626f6c3bd6a0",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "TripForm",
+            "formKUID": "ea012c4b3f6f4e47823f8400d67144cb",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

@@ -21,7 +21,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___ff95278c0a9244d085f449dcbd69d769",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "plantrip",
             "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
             "mappings": {},
             "mappingsOrder": [],

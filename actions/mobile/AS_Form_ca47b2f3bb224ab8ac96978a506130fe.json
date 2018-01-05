@@ -1,0 +1,18 @@
+{
+    "AS_Form_ca47b2f3bb224ab8ac96978a506130fe": {
+        "id": "AS_Form_ca47b2f3bb224ab8ac96978a506130fe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LocationSuggestion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h57ffa4dd8464e2bbd6958061a6bb76d"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

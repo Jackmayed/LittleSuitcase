@@ -22,8 +22,8 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___f809c91a5dd74e6e9ed9f44a195aee44",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "plantrip",
-            "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
+            "formId": "tripPlanner",
+            "formKUID": "h6c0ecbe119b474da88a63764172438b",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",

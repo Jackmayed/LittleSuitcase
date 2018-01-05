@@ -10,7 +10,7 @@ function saveProfile() {
   var age = kony.application.getCurrentForm().ProfileAge.text;
   var birthdate = kony.application.getCurrentForm().ProfileBirthdate.text;
   var luggage = kony.application.getCurrentForm().ProfileLuggage.text;
-  //var image = kony.application.getCurrentForm().ProfileImage.;
+  //var image = kony.application.getCurrentForm().ProfileImage;
   	kony.ui.Alert({message: email}, {});
   var httpClient = new kony.net.HttpRequest();
  	 httpClient.open(constants.HTTP_METHOD_POST, "https://littlesuitcase-7735.restdb.io/rest/useraccounts" + "/" + userID, false);
@@ -57,8 +57,8 @@ function getProfile(){
    try {
     httpClient.send();
     var response = httpClient.response;
-     //kony.ui.Alert({message:response.Name}, {});
-    //var textBox = {id: "ProfileName", text: response.Name, isVisible: true};
+    var photoID = response.Photo[0];
+    
     var form = kony.application.getCurrentForm();
      	
     	form.ProfileNationality.text = response.Nationality;
@@ -66,6 +66,7 @@ function getProfile(){
      	form.ProfileBirthdate.text = response.Birthdate;
      	form.ProfileLuggage.text = response.Luggage;
      	form.ProfileName.text = response.Name;
+     	form.ProfileImage.src = "https://littlesuitcase-7735.restdb.io/media/" + photoID;
   } catch(err) {
     kony.ui.Alert({message: err + "from getProfile()"}, {});
   }

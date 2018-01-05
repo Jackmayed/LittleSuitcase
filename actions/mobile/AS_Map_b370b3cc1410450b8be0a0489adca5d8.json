@@ -1,0 +1,18 @@
+{
+    "AS_Map_b370b3cc1410450b8be0a0489adca5d8": {
+        "id": "AS_Map_b370b3cc1410450b8be0a0489adca5d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TripForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ea012c4b3f6f4e47823f8400d67144cb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

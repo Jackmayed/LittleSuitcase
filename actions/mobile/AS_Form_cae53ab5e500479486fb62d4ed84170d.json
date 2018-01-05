@@ -1,0 +1,28 @@
+{
+    "AS_Form_cae53ab5e500479486fb62d4ed84170d": {
+        "id": "AS_Form_cae53ab5e500479486fb62d4ed84170d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TripForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ea012c4b3f6f4e47823f8400d67144cb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i634f63c24254ce292395194dcf5c92d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRandomLocation",
+            "display": "getRandomLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

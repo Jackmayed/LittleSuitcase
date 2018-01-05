@@ -1,0 +1,11 @@
+{
+  "background_image": "balloon_bg1.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s216639cfe244c97bd1ee4eadc9545f7",
+  "wType": "FlexContainer"
+}

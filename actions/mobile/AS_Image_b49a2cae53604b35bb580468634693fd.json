@@ -22,7 +22,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___d5dc0d31e4a3491cbae9ea54a336b1a9",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "createTrip",
             "formKUID": "f8cdd80e48aa4fb48faa0f4c4b7fac96",
             "mappings": {},
             "mappingsOrder": [],

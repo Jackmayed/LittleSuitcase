@@ -1,0 +1,35 @@
+{
+    "AS_Label_c561cc9f2e4f406cb1cae8bdb344fa6f": {
+        "id": "AS_Label_c561cc9f2e4f406cb1cae8bdb344fa6f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Menu",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e4f86753573244729786e7bd46090a14"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___c6bdd7c1c81e499da6bb2235ca86855e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "LocationSuggestion",
+            "formKUID": "h57ffa4dd8464e2bbd6958061a6bb76d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

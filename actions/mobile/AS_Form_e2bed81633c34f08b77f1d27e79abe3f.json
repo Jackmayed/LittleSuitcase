@@ -1,0 +1,28 @@
+{
+    "AS_Form_e2bed81633c34f08b77f1d27e79abe3f": {
+        "id": "AS_Form_e2bed81633c34f08b77f1d27e79abe3f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "newtrip",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d445bfcd065f433da37a236e6299580c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j451d492b21f4a1d9b6a9ae94b6478d3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fromSuggestion",
+            "display": "fromSuggestion",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

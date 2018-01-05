@@ -82,6 +82,7 @@
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "iphone",
+    "preshow": "AS_Form_e2bed81633c34f08b77f1d27e79abe3f",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,

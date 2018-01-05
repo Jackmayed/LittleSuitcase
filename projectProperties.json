@@ -29,7 +29,7 @@
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
     "nativeContainerProperties": {
-        "isModified": false,
+        "isModified": true,
         "isEnableJSContainer": false,
         "isEnableJSContainerAndroid": false,
         "isEnableJSContaineriOS": false

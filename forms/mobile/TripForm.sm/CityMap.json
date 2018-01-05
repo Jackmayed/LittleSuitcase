@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "91.94%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "272dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96.02%"
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "CityMap",
+    "info": null,
+    "iphone": {
+        "zoomLevel": 0
+    },
+    "isvisible": true,
+    "kuid": "a5f695c968ca41eaaabdb0f44f900294",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "onmaploaded": "AS_Map_b370b3cc1410450b8be0a0489adca5d8",
+    "parent": "LocationScroll",
+    "pf": "TripForm",
+    "provider": "google",
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": "1"
+}

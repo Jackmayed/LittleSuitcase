@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "LocationSuggestions",
             "type": "forms",
             "platform": "",
             "KUID": "e7f1a5440c1b4df18d8a13aa373c1b54"

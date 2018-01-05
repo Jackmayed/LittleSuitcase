@@ -13,7 +13,6 @@
             "name": "y"
         }],
         "contextObj": {
-            "name": "createTrip",
             "type": "forms",
             "platform": null,
             "KUID": "f8cdd80e48aa4fb48faa0f4c4b7fac96"
@@ -22,7 +21,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___g983de7c8b3b49d68309a18e184f3e76",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "plantrip",
             "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
             "mappings": {},
             "mappingsOrder": [],

@@ -58,7 +58,7 @@
     "kuid": "eb488af2fb7044d9aea21ebac4bb061d",
     "masterType": 1,
     "name": "kony.ui.Label",
-    "ontouchstart": "AS_Label_a81c55be00e74fc6b291f27535c03db4",
+    "ontouchstart": "AS_Label_c561cc9f2e4f406cb1cae8bdb344fa6f",
     "parent": "menubackground",
     "pf": "Menu",
     "tooltip": "",

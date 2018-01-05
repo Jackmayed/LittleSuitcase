@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se572cb1107e4c1a9359110754a86137",
+    "_text_": "Suggestions",
+    "_top_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7c6245091e94514be3b2f950b143a59",
+    "id": "Button0aa011097c48743",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbf4bb22bccc448c9024b61f9595116e",
+    "name": "kony.ui.Button",
+    "ontouchstart": "AS_Button_d5f2dd7a93a64a86827ac343b95f455e",
+    "parent": "FlexContainer0je9454cd931d4b",
+    "pf": "tripPlanner",
+    "wType": "Button",
+    "zindex": 1
+}

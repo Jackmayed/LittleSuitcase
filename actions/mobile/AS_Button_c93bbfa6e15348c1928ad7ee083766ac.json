@@ -22,13 +22,13 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___ee2d9622568b4c0392bfd9e67c53a951",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "Form2",
             "formKUID": "dd76b0226bd6496bb009ab17926f0f04",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true,
+            "disabled": true,
             "package": ""
         }, {
             "id": "INVOKE_FUNCTION___if33f18a7dd647038e6c175e39d1699a",
@@ -38,7 +38,7 @@
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
-            "disabled": true,
+            "disabled": false,
             "source": "module"
         }, {
             "id": "IF_CONDITION__bab396f782724c5799cf1e4a682d5446",
@@ -53,7 +53,7 @@
             "parentId": null,
             "callbackType": null,
             "criteria": "all",
-            "disabled": true
+            "disabled": false
         }, {
             "id": "NAVIGATE_TO_FORM___aa4d0056c5f74a839790b98f25cf9aaf",
             "type": "NAVIGATE_TO_FORM",
@@ -64,7 +64,7 @@
             "parentId": "IF_CONDITION__bab396f782724c5799cf1e4a682d5446",
             "callbackType": null,
             "enableMappingEditor": true,
-            "disabled": true,
+            "disabled": false,
             "package": ""
         }, {
             "id": "ELSE_CONDITION__d7499facac59485aa2b8ce780a0e8cc0",
@@ -79,14 +79,14 @@
             "parentId": null,
             "callbackType": null,
             "criteria": "all",
-            "disabled": true
+            "disabled": false
         }, {
             "id": "ADD_SNIPPET__df28e0ecbf1d48eeb35565f558484a17",
             "type": "ADD_SNIPPET",
             "codeSnippet": "kony.ui.Alert({message: \"Email or password is incorrect \"}, {});",
             "parentId": "ELSE_CONDITION__d7499facac59485aa2b8ce780a0e8cc0",
             "callbackType": null,
-            "disabled": true
+            "disabled": false
         }]
     }
 }

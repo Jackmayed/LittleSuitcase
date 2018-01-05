@@ -13,7 +13,6 @@
             "name": "y"
         }],
         "contextObj": {
-            "name": "LocationSuggestions",
             "type": "forms",
             "platform": null,
             "KUID": "e7f1a5440c1b4df18d8a13aa373c1b54"
@@ -22,7 +21,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___je654fb2ab0148178faff22ecbb05a11",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "plantrip",
             "formKUID": "d337c767d71645ac8e0ce8bf8618bbec",
             "mappings": {},
             "mappingsOrder": [],

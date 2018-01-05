@@ -1,0 +1,28 @@
+{
+    "AS_Form_fe2b5e13e260462ab166557c12c45dc5": {
+        "id": "AS_Form_fe2b5e13e260462ab166557c12c45dc5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LocationSuggestion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h57ffa4dd8464e2bbd6958061a6bb76d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___db190f75c7944ee6963e4ef4373edf12",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onshake",
+            "display": "onshake",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

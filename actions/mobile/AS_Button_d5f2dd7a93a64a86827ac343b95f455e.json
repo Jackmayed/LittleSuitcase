@@ -1,0 +1,35 @@
+{
+    "AS_Button_d5f2dd7a93a64a86827ac343b95f455e": {
+        "id": "AS_Button_d5f2dd7a93a64a86827ac343b95f455e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tripPlanner",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h6c0ecbe119b474da88a63764172438b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d69ea8e974e549d590791b24c248c45a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "LocationSuggestion",
+            "formKUID": "h57ffa4dd8464e2bbd6958061a6bb76d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}
