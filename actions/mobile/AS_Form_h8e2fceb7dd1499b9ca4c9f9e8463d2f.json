@@ -1,0 +1,27 @@
+{
+    "AS_Form_h8e2fceb7dd1499b9ca4c9f9e8463d2f": {
+        "id": "AS_Form_h8e2fceb7dd1499b9ca4c9f9e8463d2f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "tripPlanner",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h6c0ecbe119b474da88a63764172438b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g27cb7ade3da49ce88b742f3162d9c1c",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

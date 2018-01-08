@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "50dp"
+        "value": "23dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s01b6aee41d24aab92f9fd9513ea029e",
-    "_text_": "label",
+    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
+    "_text_": "Trip 2",
     "_top_": {
         "type": "string",
-        "value": "6dp"
+        "value": "65dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Weatherinput",
+    "id": "TripTwo",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "f7ba01973074495a82e061ae2829554e",
+    "kuid": "bf75f3131ef8480fa4e782cf17cae847",
     "name": "kony.ui.Label",
-    "parent": "Weather",
-    "pf": "TripForm",
+    "parent": "FlexScrollContainer0dc5150f2abf24d",
+    "pf": "tripPlanner",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

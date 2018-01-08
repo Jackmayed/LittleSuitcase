@@ -38,7 +38,16 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "Segment0cc92a0a55b024b"
+        "TripTwo",
+        "TripThree",
+        "TripFour",
+        "TripFive",
+        "TripSix",
+        "TripSeven",
+        "TripEight",
+        "TripNine",
+        "TripTen",
+        "TripOne"
     ],
     "clipbounds": true,
     "containerweight": 100,

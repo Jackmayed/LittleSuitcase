@@ -1,26 +1,22 @@
-function getTrip(){
+function tripInventory(){
   var userID = getUserID();
   var httpClient = new kony.net.HttpRequest();
-  httpClient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/useraccounts" + "/" + userID, false);
+  httpClient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/userspecifictrips" + "/" + userID, false);
   httpClient.setRequestHeader("x-apikey", "1368977aab130f9a6e6ec87cbb08c152ad458");
   try {
     httpClient.send();
     var response = httpClient.response;
-    //kony.ui.Alert({message:response.Name}, {});
-    //var textBox = {id: "ProfileName", text: response.Name, isVisible: true};
+    alert("Trip Inventory");
     var form = kony.application.getCurrentForm();
 
     form.ProfileNationality.text = response.Nationality;
-    form.ProfileAge.text = response.Age;
-    form.ProfileBirthdate.text = response.Birthdate;
-    form.ProfileLuggage.text = response.Luggage;
-    form.ProfileName.text = response.Name;
+
   } catch(err) {
-    kony.ui.Alert({message: err + "from getProfile()"}, {});
+    alert("No trips planned");
   }
 }
 
-function createTrip(){
+function addedTrip(){
   var form = kony.application.getCurrentForm();
   var departure = form.departureinput.text;
   var destination = form.destinationinput.text;
@@ -45,7 +41,7 @@ function createTrip(){
   try{
     httpclient.send(postdata); 
   }catch (err){
-    kony.ui.Alert({message: err + " from createTrip() method"}, {});
+    alert("Unable to Process");
   }
 }
 
@@ -53,13 +49,8 @@ function getAllTrips(){
   var currentUser = getEmail(getUserID());
 
   var httpclient = new kony.net.HttpRequest();
-  httpclient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/trips", false);
+  httpclient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/userspecifictrips", false);
   httpclient.setRequestHeader("x-apikey", "1368977aab130f9a6e6ec87cbb08c152ad458");
-
-  //   var form = kony.application.getCurrentForm();
-  //   var tripSeg = form.tripSegment.masterData;
-
-  //   kony.ui.Alert({message: tripSeg}, {});
 
 
   try {
@@ -74,17 +65,8 @@ function getAllTrips(){
       }
     }
 
-    kony.ui.Alert({message: tripIDs}, {});
+    alert("alltrips nope");
   } catch(err) {
-    kony.ui.Alert({message: err}, {});
-  }
-}
-
-function fromSuggestion(){
-  var previousForm = kony.application.getPreviousForm();
-  if(previousForm.id == "TripForm") {
-    var destination = previousForm.LocationName.text;
-    var form = kony.application.getCurrentForm();
-    form.destinationinput.text = destination;
+    alert("Request Denied");
   }
 }
