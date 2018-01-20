@@ -25,8 +25,8 @@ function createTrip(){
   var form = kony.application.getCurrentForm();
   var departure = form.departureinput.text;
   var destination = form.destinationinput.text;
-  var start = form.startcalendar.formattedDate; 
-  var end = form.endcalendar.formattedDate;
+  var start = String(form.startcalendar.formattedDate); 
+  var end = String(form.endcalendar.formattedDate);
   var assignedUser = getEmail(getUserID());
 
   //Places new info to the proper api key for database
@@ -37,11 +37,18 @@ function createTrip(){
 
   //Posts edited info to database and assigns them to proper fields
   var postdata = {
-    "Departure" : departure, 
-    "Destination" : destination,
-    "Start" : start,
+    "Destination": destination,
+    "Departure" : departure,
+    "Start" : start, 
+    "FirstFlight" : "",
+    "flightTime" : "",
+    "Accomodation" : "",
     "End" : end,
-    "AssignedUser" : assignedUser
+    "LastFlight": "",
+    "flightTime2" : "",
+    "packinglist" : "", 
+    "placestoSee" : "",
+    "AssignedUser": assignedUser
   };
   try{
     httpclient.send(postdata); 

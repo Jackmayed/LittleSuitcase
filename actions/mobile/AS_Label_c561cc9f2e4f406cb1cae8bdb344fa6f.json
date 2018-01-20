@@ -22,8 +22,8 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___c6bdd7c1c81e499da6bb2235ca86855e",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "LocationSuggestion",
-            "formKUID": "h57ffa4dd8464e2bbd6958061a6bb76d",
+            "formId": "settings",
+            "formKUID": "e28fc8cd410f490395a857b35b068236",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",

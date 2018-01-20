@@ -1,0 +1,34 @@
+{
+    "AS_Label_e4c6713d387f4d8e9d6b7e95ce43fd61": {
+        "id": "AS_Label_e4c6713d387f4d8e9d6b7e95ce43fd61",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userTripForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h24138c8b6ae49318eb9bb125831efb3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j989653fba2d49c688786c6b5919d799",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "saveTrips",
+            "display": "saveTrips",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

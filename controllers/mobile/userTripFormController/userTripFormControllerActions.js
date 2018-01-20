@@ -10,5 +10,9 @@ define({
     AS_Form_je97759daa9549f0b1e02e1f0b8a974f: function AS_Form_je97759daa9549f0b1e02e1f0b8a974f(eventobject) {
         var self = this;
         return getUserSpecificTrips.call(this);
+    },
+    AS_Label_e4c6713d387f4d8e9d6b7e95ce43fd61: function AS_Label_e4c6713d387f4d8e9d6b7e95ce43fd61(eventobject, x, y) {
+        var self = this;
+        return saveTrips.call(this);
     }
 });

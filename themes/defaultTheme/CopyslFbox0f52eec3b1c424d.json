@@ -1,6 +1,6 @@
 {
-  "background_image": "planning1.jpg",
-  "bg_type": "image",
+  "background_color": "1fadd8ff",
+  "bg_type": "one",
   "border_color": "000000ff",
   "border_style": "plain",
   "border_type": 0,

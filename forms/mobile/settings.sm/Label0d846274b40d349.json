@@ -8,13 +8,13 @@
     },
     "_left_": {
         "type": "string",
-        "value": "284dp"
+        "value": "20dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        1,
+        1,
+        1,
+        1
     ],
     "_padding_": [
         0,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s5c9da789e01495a9fef36d2f5a859a3",
-    "_text_": "",
+    "_skin_": "s49f1cc3850d485cad7e251cb32e8aac",
+    "_text_": "Notifications",
     "_top_": {
         "type": "string",
-        "value": "7dp"
+        "value": "36dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Check",
+    "id": "Label0d846274b40d349",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,12 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "bc3a7be47c734c59bc016dc485668611",
-    "masterType": 1,
+    "kuid": "ab44d3717351453cb450227ebe5f83df",
     "name": "kony.ui.Label",
-    "ontouchstart": "AS_Label_e4c6713d387f4d8e9d6b7e95ce43fd61",
-    "parent": "headerContainer05",
-    "pf": "userTripForm",
+    "parent": "FlexContainer0cff14a4d8c7643",
+    "pf": "settings",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

@@ -19,7 +19,7 @@ function login() {
     //To check the data from db
     
     for (var i in response) {
-      if (emailTxt == response[i].Email && passTxt== response[i].Password) {
+      if (emailTxt == response[i].Email && passTxt == response[i].Password) {
         setUserID(response[i]._id);
       }
     }

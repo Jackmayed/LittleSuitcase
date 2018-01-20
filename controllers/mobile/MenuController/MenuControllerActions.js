@@ -14,7 +14,7 @@ define({
     },
     AS_Label_c561cc9f2e4f406cb1cae8bdb344fa6f: function AS_Label_c561cc9f2e4f406cb1cae8bdb344fa6f(eventobject, x, y) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("LocationSuggestion");
+        var ntf = new kony.mvc.Navigation("settings");
         ntf.navigate();
     },
     AS_Image_b49a2cae53604b35bb580468634693fd: function AS_Image_b49a2cae53604b35bb580468634693fd(eventobject, x, y) {

@@ -43,6 +43,12 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "newtripController"
+        }
+    },
     "enablescrolling": true,
     "id": "whitebackground",
     "info": null,
