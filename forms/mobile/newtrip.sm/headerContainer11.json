@@ -44,8 +44,7 @@
         "headerTitleLabel",
         "headerIconLeft",
         "headerButtonLeft",
-        "headerButtonRight",
-        "Check"
+        "headerButtonRight"
     ],
     "clipbounds": true,
     "containerweight": 100,

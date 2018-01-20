@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "235dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
-    "_text_": "Trip 3",
+    "_skin_": "s0f20825e9f64ab3a1d397037967e41e",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "115dp"
+        "value": "51dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "TripThree",
+    "id": "startFlight",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "fe154967194741439f04c93556433214",
+    "kuid": "d3afc3f759e44857b889de327ee9d8fb",
     "name": "kony.ui.Label",
-    "parent": "FlexScrollContainer0dc5150f2abf24d",
-    "pf": "tripPlanner",
+    "parent": "FlexContainer0iaf20d6ee1694d",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

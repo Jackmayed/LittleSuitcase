@@ -27,14 +27,14 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerContainer25",
-        "FlexContainer0je9454cd931d4b"
+        "FlexContainer0h5d89b049caf43",
+        "headerContainer05"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "tripPlannerController"
+            "name": "userTripFormController"
         }
     },
     "currentLocale": "default",
@@ -44,7 +44,7 @@
     "device": "iPhone5",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "tripPlanner",
+    "id": "userTripForm",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -76,13 +76,13 @@
         "titleBar": false
     },
     "isvisible": true,
-    "kuid": "h6c0ecbe119b474da88a63764172438b",
+    "kuid": "h24138c8b6ae49318eb9bb125831efb3",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "iphone",
-    "preshow": "AS_Form_ha96278ec12a47edba864fe53c90283a",
+    "preshow": "AS_Form_je97759daa9549f0b1e02e1f0b8a974f",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,

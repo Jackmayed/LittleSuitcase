@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "19dp"
     },
     "_margin_": [
         1,
@@ -22,8 +22,8 @@
         0,
         0
     ],
-    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
-    "_text_": "Trip 1",
+    "_skin_": "sa0bba032f9c4543883461ca556fd5c5",
+    "_text_": "Arriving:",
     "_top_": {
         "type": "string",
         "value": "15dp"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "TripOne",
+    "id": "CopyLabel0ec6fa9ba854d4e",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "e7eff7aa6da8412a853749463c7badbf",
+    "kuid": "c49d51faafbf48dfb029a947ec9ddc5a",
     "name": "kony.ui.Label",
-    "parent": "FlexScrollContainer0dc5150f2abf24d",
-    "pf": "tripPlanner",
+    "parent": "FlexContainer0iaf20d6ee1694d",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

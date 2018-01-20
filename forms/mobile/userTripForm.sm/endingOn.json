@@ -8,13 +8,13 @@
     },
     "_left_": {
         "type": "string",
-        "value": "285dp"
+        "value": "115dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        1,
+        1,
+        1,
+        1
     ],
     "_padding_": [
         0,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "sa415eb7f39e42da85fed84f69c16120",
-    "_text_": "",
+    "_skin_": "s06f6483817547a4a90d27bd3ceff5fa",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "9dp"
+        "value": "317dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Check",
+    "id": "endingOn",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,11 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "a5a2c6b04f1240d28876fa55a8cce2ae",
-    "masterType": 1,
+    "kuid": "e6d3c4cea6a047228d80ff9fa5311a1c",
     "name": "kony.ui.Label",
-    "parent": "headerContainer11",
-    "pf": "newtrip",
+    "parent": "FlexScrollContainer0c1b54bd0d1204c",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

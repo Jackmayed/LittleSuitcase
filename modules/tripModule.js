@@ -1,13 +1,13 @@
 function getTrip(){
+  //Pull current trips from database based on user email in login
   var userID = getUserID();
   var httpClient = new kony.net.HttpRequest();
   httpClient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/useraccounts" + "/" + userID, false);
   httpClient.setRequestHeader("x-apikey", "1368977aab130f9a6e6ec87cbb08c152ad458");
+  
   try {
     httpClient.send();
     var response = httpClient.response;
-    //kony.ui.Alert({message:response.Name}, {});
-    //var textBox = {id: "ProfileName", text: response.Name, isVisible: true};
     var form = kony.application.getCurrentForm();
 
     form.ProfileNationality.text = response.Nationality;
@@ -21,6 +21,7 @@ function getTrip(){
 }
 
 function createTrip(){
+  //New trips are created
   var form = kony.application.getCurrentForm();
   var departure = form.departureinput.text;
   var destination = form.destinationinput.text;
@@ -28,13 +29,13 @@ function createTrip(){
   var end = form.endcalendar.formattedDate;
   var assignedUser = getEmail(getUserID());
 
-  kony.ui.Alert({message: "Start: " + start + ", End: " + end}, {});
-
+  //Places new info to the proper api key for database
   var httpclient = new kony.net.HttpRequest();
   httpclient.open(constants.HTTP_METHOD_POST, "https://littlesuitcase-7735.restdb.io/rest/userspecifictrips", false);
   httpclient.setRequestHeader("x-apikey", "1368977aab130f9a6e6ec87cbb08c152ad458");
   httpclient.setRequestHeader("Content-Type", "application/json");
 
+  //Posts edited info to database and assigns them to proper fields
   var postdata = {
     "Departure" : departure, 
     "Destination" : destination,
@@ -49,38 +50,8 @@ function createTrip(){
   }
 }
 
-function getAllTrips(){
-  var currentUser = getEmail(getUserID());
-
-  var httpclient = new kony.net.HttpRequest();
-  httpclient.open(constants.HTTP_METHOD_GET, "https://littlesuitcase-7735.restdb.io/rest/trips", false);
-  httpclient.setRequestHeader("x-apikey", "1368977aab130f9a6e6ec87cbb08c152ad458");
-
-  //   var form = kony.application.getCurrentForm();
-  //   var tripSeg = form.tripSegment.masterData;
-
-  //   kony.ui.Alert({message: tripSeg}, {});
-
-
-  try {
-    httpclient.send();
-    var response = httpclient.response;
-    var tripIDs = [];
-
-    for (var i in response) {
-      if (response[i].AssignedUser == currentUser) {
-        //if the email is associated with the entry
-        //create an object for the list
-      }
-    }
-
-    kony.ui.Alert({message: tripIDs}, {});
-  } catch(err) {
-    kony.ui.Alert({message: err}, {});
-  }
-}
-
 function fromSuggestion(){
+  //If user wants to create trip from suggestion function, they can transfer destination name to 'create trip' page
   var previousForm = kony.application.getPreviousForm();
   if(previousForm.id == "TripForm") {
     var destination = previousForm.LocationName.text;

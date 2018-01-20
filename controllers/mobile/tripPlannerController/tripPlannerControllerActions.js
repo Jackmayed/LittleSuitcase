@@ -16,5 +16,9 @@ define({
         var self = this;
         var ntf = new kony.mvc.Navigation("LocationSuggestion");
         ntf.navigate();
+    },
+    AS_Form_ha96278ec12a47edba864fe53c90283a: function AS_Form_ha96278ec12a47edba864fe53c90283a(eventobject) {
+        var self = this;
+        return addListItems.call(this);
     }
 });

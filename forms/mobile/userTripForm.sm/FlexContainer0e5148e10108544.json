@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "410dp"
+        "value": "181dp"
     },
     "_left_": {
         "type": "string",
@@ -23,42 +23,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s37b80d149704faea5b9a880ba6fc8d3",
+    "_skin_": "s543dfaf9afe4bcabc870982129b79b6",
     "_top_": {
         "type": "string",
-        "value": "95dp"
+        "value": "402dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "packingList",
+        "Label0edf46d416b6d41"
+    ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "FlexScrollContainer0dc5150f2abf24d",
+    "id": "FlexContainer0e5148e10108544",
     "info": null,
     "isvisible": true,
-    "kuid": "b545d180b3d1473bb1d1e6232e1913b4",
+    "kuid": "faab5a9ddaeb498c8336b0046536bc81",
     "layouttype": 2,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "FlexContainer0je9454cd931d4b",
-    "pf": "tripPlanner",
-    "scrolldirection": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlexScrollContainer0c1b54bd0d1204c",
+    "pf": "userTripForm",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

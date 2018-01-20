@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "234dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
-    "_text_": "Trip 4",
+    "_skin_": "s25855cccad64b489931b2aa3a6db6da",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "165dp"
+        "value": "359dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "TripFour",
+    "id": "flightTime2",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "caf769fa7cd64d4ba9de49ebcfa59d06",
+    "kuid": "aba886ff69564f3bb76f53694d681e0d",
     "name": "kony.ui.Label",
-    "parent": "FlexScrollContainer0dc5150f2abf24d",
-    "pf": "tripPlanner",
+    "parent": "FlexScrollContainer0c1b54bd0d1204c",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

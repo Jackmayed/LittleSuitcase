@@ -12,7 +12,9 @@ define({
     },
     AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9: function AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9(eventobject, x, y) {
         var self = this;
-        return createTrip.call(this);
+        createTrip.call(this);
+        var ntf = new kony.mvc.Navigation("tripPlanner");
+        ntf.navigate();
     },
     AS_Form_e2bed81633c34f08b77f1d27e79abe3f: function AS_Form_e2bed81633c34f08b77f1d27e79abe3f(eventobject) {
         var self = this;

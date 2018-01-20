@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "188dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
-    "_text_": "Trip 6",
+    "_skin_": "sa0bba032f9c4543883461ca556fd5c5",
+    "_text_": "at",
     "_top_": {
         "type": "string",
-        "value": "255dp"
+        "value": "362dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "TripSix",
+    "id": "CopyLabel0cb5a30e6faa643",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "fb35b9d8ad024dc39f59416242bca9a1",
+    "kuid": "e2d8d61a705646c79088c9cb5126f25e",
     "name": "kony.ui.Label",
-    "parent": "FlexScrollContainer0dc5150f2abf24d",
-    "pf": "tripPlanner",
+    "parent": "FlexScrollContainer0c1b54bd0d1204c",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

@@ -1,6 +1,6 @@
 {
-    "AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9": {
-        "id": "AS_Button_d9abb6d8e28e46aba2e1ea9303bc60a9",
+    "AS_Button_a4d839d4c0664379a5c2dc9280746973": {
+        "id": "AS_Button_a4d839d4c0664379a5c2dc9280746973",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,24 +13,14 @@
             "name": "y"
         }],
         "contextObj": {
-            "name": "newtrip",
+            "name": "userTripForm",
             "type": "forms",
             "platform": "",
-            "KUID": "d445bfcd065f433da37a236e6299580c"
+            "KUID": "h24138c8b6ae49318eb9bb125831efb3"
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___b2817908574b41debe81924e76f2b823",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "createTrip",
-            "display": "createTrip",
-            "inputparams": [],
-            "parentId": null,
-            "callbackType": null,
-            "disabled": null,
-            "source": "module"
-        }, {
-            "id": "NAVIGATE_TO_FORM___aa48a8b430c4422b819623ba81966df6",
+            "id": "NAVIGATE_TO_FORM___g88bbd30267347aa8ac1b6ae3c8d9c00",
             "type": "NAVIGATE_TO_FORM",
             "formId": "tripPlanner",
             "formKUID": "h6c0ecbe119b474da88a63764172438b",

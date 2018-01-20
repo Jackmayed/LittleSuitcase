@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "19dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s0197bc17a7a4d4cb442295cea40ecc2",
-    "_text_": "Trip 8",
+    "_skin_": "sa0bba032f9c4543883461ca556fd5c5",
+    "_text_": "Leaving:",
     "_top_": {
         "type": "string",
-        "value": "345dp"
+        "value": "321dp"
     },
     "_width_": {
         "type": "ref",
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "TripEight",
+    "id": "CopyLabel0be105ccb2fa94e",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "a5b62443d4b7485f898e44be8297c45f",
+    "kuid": "a479fbe730cd46c88022f36a28de47e9",
     "name": "kony.ui.Label",
-    "parent": "FlexScrollContainer0dc5150f2abf24d",
-    "pf": "tripPlanner",
+    "parent": "FlexScrollContainer0c1b54bd0d1204c",
+    "pf": "userTripForm",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1
